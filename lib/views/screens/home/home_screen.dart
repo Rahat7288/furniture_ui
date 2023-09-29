@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 
 import '../../../controllers/utils/app_colors.dart';
+import 'component/body.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -11,7 +12,7 @@ class HomeScreen extends StatelessWidget {
     // final double defaultSize = SizeConfig.defaultSize(context);
     return Scaffold(
       appBar: buildAppBar(),
-      // body: Body(),
+      body: Body(),
     );
   }
 
